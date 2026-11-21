@@ -28,9 +28,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_2984.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_plus_1740.csv"),
+    Path("/data/loto7_4724_k93.csv"),
+    Path("/data/loto7_4724_k93_loto_2984.csv"),
+    Path("/data/loto7_4724_k93_loto_plus_1740.csv"),
 )
 
 
@@ -2297,7 +2297,7 @@ Ucenje: korak 495 | gradijent: 0.00274756 | oblast: 0.2
 Ucenje: korak 990 | gradijent: 0.000314876 | oblast: 0.2
 Ucenje: korak 1495 | gradijent: 0.00129088 | oblast: 0.2
 Ucenje: korak 1998 | gradijent: 0.00680026 | oblast: 0.2
-NEXT: [8, 23, 24, 25, 31, 33, 34]
+NEXT: [8, x, 24, y, 31, z, 34]
 
 CSV: loto7_4724_k93_loto_2984.csv
 Ucenje vremenskih filtera: reg=1.
@@ -2316,7 +2316,7 @@ Ucenje: korak 959 | gradijent: 0.000945345 | oblast: 0.4
 Test NLL: 16.606966
 Zavrsno ucenje: svi istorijski prelazi.
 Ucenje: korak 791 | gradijent: 0.00310903 | oblast: 0.2
-NEXT: [5, 13, 16, 27, 33, 37, 39]
+NEXT: [5, x, 16, y, 33, z, 39]
 
 CSV: loto7_4724_k93_loto_plus_1740.csv
 Ucenje vremenskih filtera: reg=1.
